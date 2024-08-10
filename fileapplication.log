@@ -1,0 +1,126 @@
+16:35:53:874 [main] INFO  fajar.logging.LevelLogTest - ini info
+16:35:53:876 [main] WARN  fajar.logging.LevelLogTest - ini warning
+16:35:53:876 [main] ERROR fajar.logging.LevelLogTest - ini error
+16:50:25:721 [main] INFO  fajar.logging.LevelLogTest - ini info
+16:50:25:723 [main] WARN  fajar.logging.LevelLogTest - ini warning
+16:50:25:723 [main] ERROR fajar.logging.LevelLogTest - ini error
+16:51:30:124 [main] INFO  fajar.logging.LevelLogTest - ini info
+16:51:30:126 [main] WARN  fajar.logging.LevelLogTest - ini warning
+16:51:30:126 [main] ERROR fajar.logging.LevelLogTest - ini error
+17:06:46:062 {yyyy-MM-dd} [main] INFO  fajar.logging.LevelLogTest - ini info
+17:06:46:064 {yyyy-MM-dd} [main] WARN  fajar.logging.LevelLogTest - ini warning
+17:06:46:064 {yyyy-MM-dd} [main] ERROR fajar.logging.LevelLogTest - ini error
+2024-08-05 17:10:06,885 [main] INFO  fajar.logging.LevelLogTest - ini info
+2024-08-05 17:10:06,887 [main] WARN  fajar.logging.LevelLogTest - ini warning
+2024-08-05 17:10:06,887 [main] ERROR fajar.logging.LevelLogTest - ini error
+2024-08-05:17:10:32:010 [main] INFO  fajar.logging.LevelLogTest - ini info
+2024-08-05:17:10:32:012 [main] WARN  fajar.logging.LevelLogTest - ini warning
+2024-08-05:17:10:32:012 [main] ERROR fajar.logging.LevelLogTest - ini error
+2024-08-05 17:12:09:400 [main] INFO  fajar.logging.LevelLogTest - ini info
+2024-08-05 17:12:09:402 [main] WARN  fajar.logging.LevelLogTest - ini warning
+2024-08-05 17:12:09:402 [main] ERROR fajar.logging.LevelLogTest - ini error
+2024-08-05 20:25:57:153 [main] INFO  fajar.logging.MyController - 1fb544ff-bfc1-482a-9d2e-85ffe3a2205d - Service 
+2024-08-05 20:25:57:157 [main] INFO  fajar.logging.MyService - 1fb544ff-bfc1-482a-9d2e-85ffe3a2205d - Repository 
+2024-08-05 20:25:57:157 [main] INFO  fajar.logging.MyRepository - 1fb544ff-bfc1-482a-9d2e-85ffe3a2205d - Repository 
+2024-08-05 21:05:10:848 [main] INFO  fajar.logging.MyController - [604c2fca-e6d4-4d7d-92bc-3fcf43a440b7] - 604c2fca-e6d4-4d7d-92bc-3fcf43a440b7 - Service 
+2024-08-05 21:05:10:851 [main] INFO  fajar.logging.MyService - [604c2fca-e6d4-4d7d-92bc-3fcf43a440b7] - 604c2fca-e6d4-4d7d-92bc-3fcf43a440b7 - Repository 
+2024-08-05 21:05:10:851 [main] INFO  fajar.logging.MyRepository - [604c2fca-e6d4-4d7d-92bc-3fcf43a440b7] - 604c2fca-e6d4-4d7d-92bc-3fcf43a440b7 - Repository 
+2024-08-05 21:05:32:062 [main] INFO  fajar.logging.MyController - [c99b9e2b-360a-49cd-ad4c-2b2e6dfdc725] - c99b9e2b-360a-49cd-ad4c-2b2e6dfdc725 - Service 
+2024-08-05 21:05:32:065 [main] INFO  fajar.logging.MyService - [c99b9e2b-360a-49cd-ad4c-2b2e6dfdc725] - c99b9e2b-360a-49cd-ad4c-2b2e6dfdc725 - Repository 
+2024-08-05 21:05:32:066 [main] INFO  fajar.logging.MyRepository - [c99b9e2b-360a-49cd-ad4c-2b2e6dfdc725] - c99b9e2b-360a-49cd-ad4c-2b2e6dfdc725 - Repository 
+2024-08-05 21:07:22:364 [main] INFO  fajar.logging.MyController - [a5f8ddee-3124-476b-b543-575774004615] - {} - Service 
+2024-08-05 21:07:22:365 [main] INFO  fajar.logging.MyService - [a5f8ddee-3124-476b-b543-575774004615] - {} - Repository 
+2024-08-05 21:07:22:365 [main] INFO  fajar.logging.MyRepository - [a5f8ddee-3124-476b-b543-575774004615] - {} - Repository 
+2024-08-05 21:11:41:611 [main] INFO  fajar.logging.MyController - [6e8c8d87-7876-46bd-bc99-29c5436cc8d9] -  - Service 
+2024-08-05 21:11:41:612 [main] INFO  fajar.logging.MyService - [6e8c8d87-7876-46bd-bc99-29c5436cc8d9] -  - Repository 
+2024-08-05 21:11:41:613 [main] INFO  fajar.logging.MyRepository - [6e8c8d87-7876-46bd-bc99-29c5436cc8d9] -  - Repository 
+2024-08-05 21:16:46:325 [Thread-0] INFO  fajar.logging.MyController - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Service 
+2024-08-05 21:16:46:325 [Thread-4] INFO  fajar.logging.MyController - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Service 
+2024-08-05 21:16:46:325 [Thread-2] INFO  fajar.logging.MyController - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Service 
+2024-08-05 21:16:46:325 [Thread-9] INFO  fajar.logging.MyController - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Service 
+2024-08-05 21:16:46:325 [Thread-8] INFO  fajar.logging.MyController - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Service 
+2024-08-05 21:16:46:326 [Thread-4] INFO  fajar.logging.MyService - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:16:46:325 [Thread-1] INFO  fajar.logging.MyController - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Service 
+2024-08-05 21:16:46:326 [Thread-8] INFO  fajar.logging.MyService - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:16:46:325 [Thread-3] INFO  fajar.logging.MyController - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Service 
+2024-08-05 21:16:46:325 [Thread-6] INFO  fajar.logging.MyController - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Service 
+2024-08-05 21:16:46:325 [Thread-7] INFO  fajar.logging.MyController - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Service 
+2024-08-05 21:16:46:325 [Thread-5] INFO  fajar.logging.MyController - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Service 
+2024-08-05 21:16:46:326 [Thread-0] INFO  fajar.logging.MyService - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:16:46:327 [Thread-7] INFO  fajar.logging.MyService - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:16:46:326 [Thread-2] INFO  fajar.logging.MyService - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:16:46:327 [Thread-7] INFO  fajar.logging.MyRepository - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:16:46:326 [Thread-9] INFO  fajar.logging.MyService - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:16:46:327 [Thread-1] INFO  fajar.logging.MyService - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:16:46:327 [Thread-4] INFO  fajar.logging.MyRepository - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:16:46:327 [Thread-9] INFO  fajar.logging.MyRepository - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:16:46:327 [Thread-3] INFO  fajar.logging.MyService - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:16:46:327 [Thread-1] INFO  fajar.logging.MyRepository - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:16:46:327 [Thread-8] INFO  fajar.logging.MyRepository - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:16:46:327 [Thread-6] INFO  fajar.logging.MyService - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:16:46:327 [Thread-0] INFO  fajar.logging.MyRepository - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:16:46:327 [Thread-5] INFO  fajar.logging.MyService - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:16:46:327 [Thread-6] INFO  fajar.logging.MyRepository - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:16:46:327 [Thread-2] INFO  fajar.logging.MyRepository - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:16:46:327 [Thread-3] INFO  fajar.logging.MyRepository - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:16:46:328 [Thread-5] INFO  fajar.logging.MyRepository - [74693173-92c3-46db-95b1-f78aa13f7329] -  - Repository 
+2024-08-05 21:17:01:554 [Thread-8] INFO  fajar.logging.MyController - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Service 
+2024-08-05 21:17:01:554 [Thread-4] INFO  fajar.logging.MyController - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Service 
+2024-08-05 21:17:01:554 [Thread-6] INFO  fajar.logging.MyController - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Service 
+2024-08-05 21:17:01:554 [Thread-3] INFO  fajar.logging.MyController - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Service 
+2024-08-05 21:17:01:554 [Thread-7] INFO  fajar.logging.MyController - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Service 
+2024-08-05 21:17:01:555 [Thread-9] INFO  fajar.logging.MyController - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Service 
+2024-08-05 21:17:01:554 [Thread-0] INFO  fajar.logging.MyController - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Service 
+2024-08-05 21:17:01:554 [Thread-1] INFO  fajar.logging.MyController - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Service 
+2024-08-05 21:17:01:555 [Thread-6] INFO  fajar.logging.MyService - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:17:01:554 [Thread-5] INFO  fajar.logging.MyController - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Service 
+2024-08-05 21:17:01:554 [Thread-2] INFO  fajar.logging.MyController - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Service 
+2024-08-05 21:17:01:555 [Thread-8] INFO  fajar.logging.MyService - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:17:01:555 [Thread-3] INFO  fajar.logging.MyService - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:17:01:556 [Thread-0] INFO  fajar.logging.MyService - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:17:01:556 [Thread-6] INFO  fajar.logging.MyRepository - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:17:01:556 [Thread-3] INFO  fajar.logging.MyRepository - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:17:01:556 [Thread-1] INFO  fajar.logging.MyService - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:17:01:555 [Thread-4] INFO  fajar.logging.MyService - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:17:01:556 [Thread-8] INFO  fajar.logging.MyRepository - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:17:01:556 [Thread-2] INFO  fajar.logging.MyService - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:17:01:556 [Thread-4] INFO  fajar.logging.MyRepository - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:17:01:556 [Thread-5] INFO  fajar.logging.MyService - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:17:01:556 [Thread-9] INFO  fajar.logging.MyService - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:17:01:556 [Thread-7] INFO  fajar.logging.MyService - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:17:01:556 [Thread-5] INFO  fajar.logging.MyRepository - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:17:01:556 [Thread-0] INFO  fajar.logging.MyRepository - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:17:01:556 [Thread-1] INFO  fajar.logging.MyRepository - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:17:01:557 [Thread-7] INFO  fajar.logging.MyRepository - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:17:01:556 [Thread-2] INFO  fajar.logging.MyRepository - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:17:01:557 [Thread-9] INFO  fajar.logging.MyRepository - [b927dffd-4599-430e-b6f7-20cbf0011f85] -  - Repository 
+2024-08-05 21:18:49:789 [Thread-9] INFO  fajar.logging.MyController - [9fd8ddfb-6bb2-4079-b324-f12f06adfb0c] -  - Service 
+2024-08-05 21:18:49:789 [Thread-2] INFO  fajar.logging.MyController - [a84a8fd8-20f0-41dc-8343-e94d495585c8] -  - Service 
+2024-08-05 21:18:49:789 [Thread-1] INFO  fajar.logging.MyController - [1ee79c08-b21f-4a5b-be14-7a4236e5358e] -  - Service 
+2024-08-05 21:18:49:789 [Thread-4] INFO  fajar.logging.MyController - [a1b0fba3-9f58-4e48-bd46-a65e995999df] -  - Service 
+2024-08-05 21:18:49:789 [Thread-3] INFO  fajar.logging.MyController - [d84b0fb3-1139-4d4a-8f5b-0fe9f001504e] -  - Service 
+2024-08-05 21:18:49:789 [Thread-7] INFO  fajar.logging.MyController - [fc43efd8-0aff-42b3-89cc-9ef51e57dd8a] -  - Service 
+2024-08-05 21:18:49:790 [Thread-9] INFO  fajar.logging.MyService - [9fd8ddfb-6bb2-4079-b324-f12f06adfb0c] -  - Repository 
+2024-08-05 21:18:49:790 [Thread-3] INFO  fajar.logging.MyService - [d84b0fb3-1139-4d4a-8f5b-0fe9f001504e] -  - Repository 
+2024-08-05 21:18:49:790 [Thread-1] INFO  fajar.logging.MyService - [1ee79c08-b21f-4a5b-be14-7a4236e5358e] -  - Repository 
+2024-08-05 21:18:49:789 [Thread-5] INFO  fajar.logging.MyController - [b5dfe468-7abe-4119-9128-2bc6776accaf] -  - Service 
+2024-08-05 21:18:49:789 [Thread-8] INFO  fajar.logging.MyController - [cd359a76-fbc6-4f0e-8e38-576dd8de876a] -  - Service 
+2024-08-05 21:18:49:789 [Thread-0] INFO  fajar.logging.MyController - [f9add46e-ae49-413a-b98a-cf40aca9743e] -  - Service 
+2024-08-05 21:18:49:789 [Thread-6] INFO  fajar.logging.MyController - [2b81b5c3-9015-4e47-ae7a-a49b9f697ecf] -  - Service 
+2024-08-05 21:18:49:790 [Thread-4] INFO  fajar.logging.MyService - [a1b0fba3-9f58-4e48-bd46-a65e995999df] -  - Repository 
+2024-08-05 21:18:49:790 [Thread-7] INFO  fajar.logging.MyService - [fc43efd8-0aff-42b3-89cc-9ef51e57dd8a] -  - Repository 
+2024-08-05 21:18:49:791 [Thread-8] INFO  fajar.logging.MyService - [cd359a76-fbc6-4f0e-8e38-576dd8de876a] -  - Repository 
+2024-08-05 21:18:49:790 [Thread-9] INFO  fajar.logging.MyRepository - [9fd8ddfb-6bb2-4079-b324-f12f06adfb0c] -  - Repository 
+2024-08-05 21:18:49:790 [Thread-1] INFO  fajar.logging.MyRepository - [1ee79c08-b21f-4a5b-be14-7a4236e5358e] -  - Repository 
+2024-08-05 21:18:49:791 [Thread-4] INFO  fajar.logging.MyRepository - [a1b0fba3-9f58-4e48-bd46-a65e995999df] -  - Repository 
+2024-08-05 21:18:49:791 [Thread-8] INFO  fajar.logging.MyRepository - [cd359a76-fbc6-4f0e-8e38-576dd8de876a] -  - Repository 
+2024-08-05 21:18:49:790 [Thread-2] INFO  fajar.logging.MyService - [a84a8fd8-20f0-41dc-8343-e94d495585c8] -  - Repository 
+2024-08-05 21:18:49:790 [Thread-3] INFO  fajar.logging.MyRepository - [d84b0fb3-1139-4d4a-8f5b-0fe9f001504e] -  - Repository 
+2024-08-05 21:18:49:791 [Thread-6] INFO  fajar.logging.MyService - [2b81b5c3-9015-4e47-ae7a-a49b9f697ecf] -  - Repository 
+2024-08-05 21:18:49:791 [Thread-0] INFO  fajar.logging.MyService - [f9add46e-ae49-413a-b98a-cf40aca9743e] -  - Repository 
+2024-08-05 21:18:49:791 [Thread-5] INFO  fajar.logging.MyService - [b5dfe468-7abe-4119-9128-2bc6776accaf] -  - Repository 
+2024-08-05 21:18:49:791 [Thread-6] INFO  fajar.logging.MyRepository - [2b81b5c3-9015-4e47-ae7a-a49b9f697ecf] -  - Repository 
+2024-08-05 21:18:49:791 [Thread-0] INFO  fajar.logging.MyRepository - [f9add46e-ae49-413a-b98a-cf40aca9743e] -  - Repository 
+2024-08-05 21:18:49:791 [Thread-7] INFO  fajar.logging.MyRepository - [fc43efd8-0aff-42b3-89cc-9ef51e57dd8a] -  - Repository 
+2024-08-05 21:18:49:791 [Thread-2] INFO  fajar.logging.MyRepository - [a84a8fd8-20f0-41dc-8343-e94d495585c8] -  - Repository 
+2024-08-05 21:18:49:791 [Thread-5] INFO  fajar.logging.MyRepository - [b5dfe468-7abe-4119-9128-2bc6776accaf] -  - Repository 
