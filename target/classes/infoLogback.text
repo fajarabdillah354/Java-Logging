@@ -1,0 +1,30 @@
+di bawah ini adalah contoh configuration untuk logback
+
+<configuration>
+
+    <logger name="fajar.logging" level="info"/>
+
+    <root level="debug">
+        <appender class="ch.qos.logback.core.ConsoleAppender">
+            <encoder>
+                <pattern>%d{}</pattern>
+            </encoder>
+        </appender>
+    </root>
+</configuration>
+
+
+dimana pada tag root ada level debug artinya yang ada dijalankan dari level debug ke atas yaitu info,warn, dan error
+
+jika kita ingin mematikan maka di root kita beri level "off"
+
+
+adapun level yang ada pada log ada 5
+1. trace -> Biasanya untuk menambahkan informasi tracing
+2. debug -> Biasanya untuk menambahkan informasi debug
+3. info -> Biasanya untuk menambahkan informasi
+4. warn -> Biasanya untuk menambahkan peringatan
+5. error -> Biasanya untuk menambahkan error
+
+
+jika kita ingin memberi level pada package yang kita mau kit bisa tambahkan tag <logger name="packageName" level="logLevel"/>, dengan seperti ini berarti kita memberi tahu bahwa semua logger yang ada di package name akan menggunakan level yang telah dipilih

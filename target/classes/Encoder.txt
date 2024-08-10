@@ -1,0 +1,10 @@
+Layout
+- Layout adalah komponen dalam logback yang digunakan untuk melakukan transformasi dari LogEvent menjadi String yang ada di tag encoder
+- http://logback.qos.ch/apidocs/ch/qos/logback/core/Layout.html
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss:SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+
+        // kita juga bisa menambahkan informasi seperti tahun,bulan dan hari dengan format Date & Time pada java
+

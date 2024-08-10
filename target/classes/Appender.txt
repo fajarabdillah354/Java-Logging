@@ -1,0 +1,62 @@
+SECARA GARIS BESAR ADA 2 APPENDER YANG SERING DIGUNAKAN ConsoleAppender dan RollingFileAppender
+
+1. ConsoleAppender
+- Appender yang paling sederhana adalah Console
+- Dimana appender ini hanya meneruskan log event yang kita kirim menggunakan logger ke dalam console atau System.out
+- ConsoleAppender sangat cocok ketika aplikasi yang kita buat di bungkus dalam docker atau kubernetes misalnya, karena kita cukup menampilkannya di console, dan secara otomatis log bisa diambil oleh docker dan kubernetes
+-
+
+2. RollingFileAppender
+- Kadang saat menyimpan semua log event di file, lama-lama file tersebut akan terlalu besar
+- Logback menyediakan RollingFileAppender, yaitu appender yang menyimpan data nya di file, namun kita bisa lakukan rolling, artinya per waktu tertentu akan dibuatkan file baru
+- Selain itu kita bisa juga set maksimal ukuran file nya, sehingga ketika sudah mencapai batas maksimal, akan dibuatkan file baru lagi
+- Ini lebih direkomendasikan untuk digunakan dibanding menggunakan FileAppender
+
+
+
+
+
+
+
+- appender adalah adalah destinasi log file yang telah dibuat, bisa berupa console dan file.log
+- pada docker dan kubernates kita bisanya menggunakan ConsoleAppender, sedangkan pada VM untuk deploy application kita menggunakan FileAppender
+
+<configuration>
+
+    <logger name="fajar.logging" level="info"/>
+
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss:SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+            <file>fileapplication.log</file>
+            <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+                <!-- rollover daily -->
+    <!--            fileapplication is name file RollingFileAppender-->
+                <fileNamePattern>fileapplication-%d{yyyy-MM-dd}.%i.log</fileNamePattern>  //jika lewat dari 1 hari maka akan mengenerate file baru
+                <!-- each file should be at most 100MB, keep 60 days worth of history, but at most 20GB -->
+                <maxFileSize>100MB</maxFileSize> //jika sudah lebih dari 100mb maka akan mengenerate file baru
+                <maxHistory>60</maxHistory>
+                <totalSizeCap>20GB</totalSizeCap>
+            </rollingPolicy>
+            <encoder>
+                <pattern>%d{HH:mm:ss:SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            </encoder>
+        </appender>
+
+
+    <root level="debug">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+    </root>
+</configuration>
+
+
+
+- kita bisa memisahkan tag appender lalu memanggilnya dengan appender-ref pada tag root
+- saat kita menjalan program 2x maka log tidak akan secara otomatis dihapus tetapi akan ditambahkan secara otomatis dilog terakhir setelah program dijalankan
